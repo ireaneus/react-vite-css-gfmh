@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'EB Garamond' serif;
+  font-size: $m-size;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: darkslategray;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
